@@ -14,6 +14,7 @@ def get_first_name_of_season_winner(data, season)
          winners.push(a)
        end
      end
+     end
   end
   print winners.flatten(1)
 end
