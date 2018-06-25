@@ -19,7 +19,7 @@ def get_first_name_of_season_winner(data, season)
   print winners.flatten(1)
 end
 
-get_first_name_of_season_winner(data, "season 10")
+get_first_name_of_season_winner(data_hash, "season 10")
 
 def get_contestant_name(data, occupation)
   # code here
