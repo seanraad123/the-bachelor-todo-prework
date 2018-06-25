@@ -16,7 +16,7 @@ def get_first_name_of_season_winner(data, season)
      end
     end
   end
-  return winners.flatten(2)
+  print winners.flatten(2)
 end
 
 get_first_name_of_season_winner(data_hash, "season 10")
